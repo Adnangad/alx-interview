@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+This module contains the function that creates a pascal triangle from an array.
+"""
+
+
 def pascal_triangle(n):
     if n <= 0:
         return []
