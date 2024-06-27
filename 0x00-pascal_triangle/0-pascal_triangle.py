@@ -5,6 +5,10 @@ This module contains the function that creates a pascal triangle from an array.
 
 
 def pascal_triangle(n):
+    """
+    Args: n
+    n the number of arrays.
+    """
     if n <= 0:
         return []
     triangle = [[1]]
