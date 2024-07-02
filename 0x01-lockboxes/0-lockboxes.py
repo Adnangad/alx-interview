@@ -9,6 +9,8 @@ def canUnlockAll(boxes):
     Args:
     boxes: the nested list.
     """
+    if boxes == null:
+        return False
     ls = []
     len_of_boxes = len(boxes)
     for i in range(1, len_of_boxes):
