@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 This module contains functions that calculate min operations it takes/
 to display a certain number of characters.
