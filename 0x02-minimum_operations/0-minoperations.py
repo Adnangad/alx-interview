@@ -25,7 +25,7 @@ def minOperations(n):
     Returns the min amnt of operations required to result
     the string with the same length as n.
     """
-    if n <= 0:
+    if n <= 1:
         return 0
     count = 0
     current_value = 'H'
